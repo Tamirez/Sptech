@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="HospitalTest" time="0.144" tests="24" errors="12" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tamir\Desktop\SP TECH SCHOOL\SEGUNDO SEMESTRE\Linguagem de Programação - Giuliana\atividade-04-hospital\atividade-04-hospital\target\test-classes;C:\Users\tamir\Desktop\SP TECH SCHOOL\SEGUNDO SEMESTRE\Linguagem de Programação - Giuliana\atividade-04-hospital\atividade-04-hospital\target\classes;C:\Users\tamir\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\tamir\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\tamir\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\tamir\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tamir\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\tamir\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\tamir\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\tamir\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\tamir\AppData\Local\Temp\surefire12463094425275001563\surefirebooter8560820297411263220.jar C:\Users\tamir\AppData\Local\Temp\surefire12463094425275001563 2022-10-08T22-21-04_691-jvmRun1 surefire17630222957656138177tmp surefire_016311188576575661079tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="HospitalTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\tamir\Desktop\SP TECH SCHOOL\SEGUNDO SEMESTRE\Linguagem de Programação - Giuliana\atividade-04-hospital\atividade-04-hospital\target\test-classes;C:\Users\tamir\Desktop\SP TECH SCHOOL\SEGUNDO SEMESTRE\Linguagem de Programação - Giuliana\atividade-04-hospital\atividade-04-hospital\target\classes;C:\Users\tamir\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\tamir\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\tamir\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\tamir\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tamir\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\tamir\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\tamir\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\tamir\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tamir"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tamir\Desktop\SP TECH SCHOOL\SEGUNDO SEMESTRE\Linguagem de Programação - Giuliana\atividade-04-hospital\atividade-04-hospital"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\tamir\AppData\Local\Temp\surefire12463094425275001563\surefirebooter8560820297411263220.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="tamir"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.6\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\tamir\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tamir\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\Users\tamir\Desktop\SP TECH SCHOOL\SEGUNDO SEMESTRE\Linguagem de Programação - Giuliana\atividade-04-hospital\atividade-04-hospital"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\tamir\AppData\Local\Microsoft\WindowsApps;;C:\Users\tamir\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="realizarPagamentoMedicoNuloSemExcecao" classname="HospitalTest" time="0.063">
+    <failure message="Unexpected exception thrown: java.lang.NullPointerException" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoMedicoNuloSemExcecao$2(HospitalTest.java:83)
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+</failure>
+  </testcase>
+  <testcase name="realizarPagamentoMedicoNulo" classname="HospitalTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNulo(HospitalTest.java:74)
+</error>
+  </testcase>
+  <testcase name="realizarPagamentoMedicoInativo" classname="HospitalTest" time="0.002"/>
+  <testcase name="construtorHospital" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoHoraExtraMedicoNulo" classname="HospitalTest" time="0.002">
+    <error message="Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;&#10;  required: com.sptech.atividade.com.testes.Medico,java.lang.Double&#10;  found: &lt;nulltype&gt;,double,double&#10;  reason: actual and formal argument lists differ in length" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: <nulltype>,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNulo(HospitalTest.java:1)
+]]></error>
+  </testcase>
+  <testcase name="classeHospitalGettersESetters" classname="HospitalTest" time="0.018">
+    <failure message="Expected java.lang.NoSuchMethodException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NoSuchMethodException to be thrown, but nothing was thrown.
+	at HospitalTest.classeHospitalGettersESetters(HospitalTest.java:217)
+</failure>
+  </testcase>
+  <testcase name="realizarPagamentoValorValido" classname="HospitalTest" time="0.003">
+    <failure message="expected: &lt;1&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at HospitalTest.realizarPagamentoValorValido(HospitalTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="classeMedicoAtributosPrivados" classname="HospitalTest" time="0.003"/>
+  <testcase name="realizarPagamentoHoraExtraValorInvalido" classname="HospitalTest" time="0.002">
+    <error message="Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;&#10;  required: com.sptech.atividade.com.testes.Medico,java.lang.Double&#10;  found: com.sptech.atividade.com.testes.Medico,double,double&#10;  reason: actual and formal argument lists differ in length" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraValorInvalido(HospitalTest.java:1)
+</error>
+  </testcase>
+  <testcase name="desligarMedicoInvalido" classname="HospitalTest" time="0.002">
+    <error message="Uncompilable code - cannot find symbol&#10;  symbol:   method desligarMedico(&lt;nulltype&gt;)&#10;  location: variable hospital of type com.sptech.atividade.com.testes.Hospital" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method desligarMedico(<nulltype>)
+  location: variable hospital of type com.sptech.atividade.com.testes.Hospital
+	at HospitalTest.desligarMedicoInvalido(HospitalTest.java:1)
+]]></error>
+  </testcase>
+  <testcase name="realizarPagamentoHoraExtraNull" classname="HospitalTest" time="0.001">
+    <error message="Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;&#10;  required: com.sptech.atividade.com.testes.Medico,java.lang.Double&#10;  found: com.sptech.atividade.com.testes.Medico,double,&lt;nulltype&gt;&#10;  reason: actual and formal argument lists differ in length" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,<nulltype>
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraNull(HospitalTest.java:1)
+]]></error>
+  </testcase>
+  <testcase name="realizarPagamentoHoraExtraNegativa" classname="HospitalTest" time="0.002">
+    <error message="Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;&#10;  required: com.sptech.atividade.com.testes.Medico,java.lang.Double&#10;  found: com.sptech.atividade.com.testes.Medico,double,double&#10;  reason: actual and formal argument lists differ in length" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraNegativa(HospitalTest.java:1)
+</error>
+  </testcase>
+  <testcase name="realizarPagamentoHoraExtraMedicoNuloSemExcecao" classname="HospitalTest" time="0.002">
+    <error message="Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;&#10;  required: com.sptech.atividade.com.testes.Medico,java.lang.Double&#10;  found: &lt;nulltype&gt;,double,double&#10;  reason: actual and formal argument lists differ in length" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: <nulltype>,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNuloSemExcecao(HospitalTest.java:1)
+]]></error>
+  </testcase>
+  <testcase name="construtorMedico" classname="HospitalTest" time="0.002">
+    <error message="Uncompilable code - cannot find symbol&#10;  symbol:   method getAtivo()&#10;  location: variable medico of type com.sptech.atividade.com.testes.Medico" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getAtivo()
+  location: variable medico of type com.sptech.atividade.com.testes.Medico
+	at HospitalTest.construtorMedico(HospitalTest.java:1)
+</error>
+  </testcase>
+  <testcase name="realizarPagamentoHoraExtraValorValido" classname="HospitalTest" time="0.001">
+    <error message="Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;&#10;  required: com.sptech.atividade.com.testes.Medico,java.lang.Double&#10;  found: com.sptech.atividade.com.testes.Medico,double,double&#10;  reason: actual and formal argument lists differ in length" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraValorValido(HospitalTest.java:1)
+</error>
+  </testcase>
+  <testcase name="classeHospitalAtributosPrivados" classname="HospitalTest" time="0.003"/>
+  <testcase name="realizarPagamentoValorInvalido" classname="HospitalTest" time="0.001"/>
+  <testcase name="realizarPagamentoValorNulo" classname="HospitalTest" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoValorNulo(HospitalTest.java:89)
+</error>
+  </testcase>
+  <testcase name="realizarPagamentoHoraExtraMedicoInativo" classname="HospitalTest" time="0.001">
+    <error message="Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;&#10;  required: com.sptech.atividade.com.testes.Medico,java.lang.Double&#10;  found: com.sptech.atividade.com.testes.Medico,double,double&#10;  reason: actual and formal argument lists differ in length" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraMedicoInativo(HospitalTest.java:1)
+</error>
+  </testcase>
+  <testcase name="classeMedicoMetodosPublicos" classname="HospitalTest" time="0.001"/>
+  <testcase name="classeMedicoGettersESetters" classname="HospitalTest" time="0.002">
+    <failure message="Unexpected exception thrown: java.lang.NoSuchMethodException: com.sptech.atividade.com.testes.Medico.getAtivo()" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NoSuchMethodException: com.sptech.atividade.com.testes.Medico.getAtivo()
+	at HospitalTest.classeMedicoGettersESetters(HospitalTest.java:251)
+Caused by: java.lang.NoSuchMethodException: com.sptech.atividade.com.testes.Medico.getAtivo()
+	at HospitalTest.lambda$classeMedicoGettersESetters$10(HospitalTest.java:251)
+	at HospitalTest.classeMedicoGettersESetters(HospitalTest.java:251)
+</failure>
+  </testcase>
+  <testcase name="classeHospitalaMetodosPublicos" classname="HospitalTest" time="0.001"/>
+  <testcase name="desligarMedicoValido" classname="HospitalTest" time="0.002">
+    <error message="Uncompilable code - cannot find symbol&#10;  symbol:   method desligarMedico(com.sptech.atividade.com.testes.Medico)&#10;  location: variable hospital of type com.sptech.atividade.com.testes.Hospital" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method desligarMedico(com.sptech.atividade.com.testes.Medico)
+  location: variable hospital of type com.sptech.atividade.com.testes.Hospital
+	at HospitalTest.desligarMedicoValido(HospitalTest.java:1)
+</error>
+  </testcase>
+  <testcase name="realizarPagamentoValorNuloSemExcecao" classname="HospitalTest" time="0.002">
+    <failure message="Unexpected exception thrown: java.lang.NullPointerException" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoValorNuloSemExcecao(HospitalTest.java:98)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoValorNuloSemExcecao$3(HospitalTest.java:98)
+	at HospitalTest.realizarPagamentoValorNuloSemExcecao(HospitalTest.java:98)
+</failure>
+  </testcase>
+</testsuite>

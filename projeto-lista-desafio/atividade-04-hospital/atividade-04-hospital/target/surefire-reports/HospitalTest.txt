@@ -1,0 +1,118 @@
+-------------------------------------------------------------------------------
+Test set: HospitalTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 5, Errors: 12, Skipped: 0, Time elapsed: 0.144 s <<< FAILURE! - in HospitalTest
+realizarPagamentoMedicoNuloSemExcecao  Time elapsed: 0.063 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoMedicoNuloSemExcecao$2(HospitalTest.java:83)
+	at HospitalTest.realizarPagamentoMedicoNuloSemExcecao(HospitalTest.java:83)
+
+realizarPagamentoMedicoNulo  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoMedicoNulo(HospitalTest.java:74)
+
+realizarPagamentoHoraExtraMedicoNulo  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: <nulltype>,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNulo(HospitalTest.java:1)
+
+classeHospitalGettersESetters  Time elapsed: 0.018 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NoSuchMethodException to be thrown, but nothing was thrown.
+	at HospitalTest.classeHospitalGettersESetters(HospitalTest.java:217)
+
+realizarPagamentoValorValido  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at HospitalTest.realizarPagamentoValorValido(HospitalTest.java:58)
+
+realizarPagamentoHoraExtraValorInvalido  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraValorInvalido(HospitalTest.java:1)
+
+desligarMedicoInvalido  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method desligarMedico(<nulltype>)
+  location: variable hospital of type com.sptech.atividade.com.testes.Hospital
+	at HospitalTest.desligarMedicoInvalido(HospitalTest.java:1)
+
+realizarPagamentoHoraExtraNull  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,<nulltype>
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraNull(HospitalTest.java:1)
+
+realizarPagamentoHoraExtraNegativa  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraNegativa(HospitalTest.java:1)
+
+realizarPagamentoHoraExtraMedicoNuloSemExcecao  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: <nulltype>,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraMedicoNuloSemExcecao(HospitalTest.java:1)
+
+construtorMedico  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method getAtivo()
+  location: variable medico of type com.sptech.atividade.com.testes.Medico
+	at HospitalTest.construtorMedico(HospitalTest.java:1)
+
+realizarPagamentoHoraExtraValorValido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraValorValido(HospitalTest.java:1)
+
+realizarPagamentoValorNulo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoValorNulo(HospitalTest.java:89)
+
+realizarPagamentoHoraExtraMedicoInativo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - method realizarPagamento in class com.sptech.atividade.com.testes.Hospital cannot be applied to given types;
+  required: com.sptech.atividade.com.testes.Medico,java.lang.Double
+  found: com.sptech.atividade.com.testes.Medico,double,double
+  reason: actual and formal argument lists differ in length
+	at HospitalTest.realizarPagamentoHoraExtraMedicoInativo(HospitalTest.java:1)
+
+classeMedicoGettersESetters  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NoSuchMethodException: com.sptech.atividade.com.testes.Medico.getAtivo()
+	at HospitalTest.classeMedicoGettersESetters(HospitalTest.java:251)
+Caused by: java.lang.NoSuchMethodException: com.sptech.atividade.com.testes.Medico.getAtivo()
+	at HospitalTest.lambda$classeMedicoGettersESetters$10(HospitalTest.java:251)
+	at HospitalTest.classeMedicoGettersESetters(HospitalTest.java:251)
+
+desligarMedicoValido  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: 
+Uncompilable code - cannot find symbol
+  symbol:   method desligarMedico(com.sptech.atividade.com.testes.Medico)
+  location: variable hospital of type com.sptech.atividade.com.testes.Hospital
+	at HospitalTest.desligarMedicoValido(HospitalTest.java:1)
+
+realizarPagamentoValorNuloSemExcecao  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException
+	at HospitalTest.realizarPagamentoValorNuloSemExcecao(HospitalTest.java:98)
+Caused by: java.lang.NullPointerException
+	at HospitalTest.lambda$realizarPagamentoValorNuloSemExcecao$3(HospitalTest.java:98)
+	at HospitalTest.realizarPagamentoValorNuloSemExcecao(HospitalTest.java:98)
+
